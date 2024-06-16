@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Scouting App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Football Scouting App</h1>
+        
+        <!-- Form to add a new player -->
+        <form id="addPlayerForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <br>
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" required>
+            <br>
+            <button type="submit">Add Player</button>
+        </form>
+        
+        <!-- Container to display players -->
+        <div id="playersContainer">
+            <!-- Players will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
